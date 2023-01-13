@@ -24,8 +24,10 @@ Resource for multi-model databases. Welcome ISSUEs & PRs.
 
 ## MMDBS
 
-| name       | github                                                    | status      | lang            | support         | protocol | query       | license    |
-| ---------- | --------------------------------------------------------- | ----------- | --------------- | --------------- | -------- | ----------- | ---------- |
-| ArangoDB   | [arangodb](https://github.com/arangodb/arangodb)          | maintaining | C++, JavaScript | Graph, Document | http     | text (AQL)  | apache-2.0 |
-| OrientDB   | [orientdb](https://github.com/orientechnologies/orientdb) | maintaining | Java            | Graph, Document | http     | text (SQL)  | apache-2.0 |
-| EuclidesDB | [euclidesdb](https://github.com/perone/euclidesdb)        | stopped     | C++             | Graph, ML Model | gRPC     | text, image | apache-2.0 |
+| name       | github                                                    | status      | lang            | support                       | protocol | query             | license    |
+| ---------- | --------------------------------------------------------- | ----------- | --------------- | ----------------------------- | -------- | ----------------- | ---------- |
+| ArangoDB   | [arangodb](https://github.com/arangodb/arangodb)          | maintaining | C++, JavaScript | relation, graph, document     | http     | AQL               | Apache-2.0 |
+| OrientDB   | [orientdb](https://github.com/orientechnologies/orientdb) | maintaining | Java            | relation, graph, document     | http     | SQL               | Apache-2.0 |
+| EuclidesDB | [euclidesdb](https://github.com/perone/euclidesdb)        | stopped     | C++             | relation, model               | gRPC     | gRPC              | Apache-2.0 |
+| ArcadeDB   | [arcadedb](https://github.com/ArcadeData/arcadedb)        | maintaining | Java            | relation, graph, document, KV | http     | SQL, Cypher, JSON | Apache-2.0 |
+| OrixDB     | [orixdb](https://github.com/orixdb/orixdb)                | booting     | Rust            | unknown                       | unknown  | GraphQL           | MIT        |
