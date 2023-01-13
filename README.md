@@ -1,2 +1,31 @@
 # awesome-multi-model-databases
-Multi-model database systems
+
+Resource for multi-model databases. Welcome ISSUEs & PRs.
+
+    
+
+## Paper
+
+- [Multi-model Databases: A New Journey to Handle the Variety of Data](https://dl.acm.org/doi/pdf/10.1145/3323214) A survey.
+
+- [Linking Entities across Relations and Graphs](https://www.disi.unitn.it/~pavel/OM/articles/Fan_ICDE22.pdf) Focusing on the integration between Relations and Graphs.
+
+- [UDBMS: Road to Unification for Multi-model Data Management](https://arxiv.org/pdf/1612.08050.pdf) An instance.
+
+- [OrientDB: A NoSQL, Open Source MMDMS](https://ceur-ws.org/Vol-3163/BICOD21_paper_3.pdf) An MMDBS instance.
+
+    
+
+## Book
+
+- [Building on Multi-Model Databases](https://www.oreilly.com/library/view/building-on-multi-model/9781492049234/)
+
+    
+
+## MMDBS
+
+| name       | github                                                    | status      | lang            | support         | protocol | query       | license    |
+| ---------- | --------------------------------------------------------- | ----------- | --------------- | --------------- | -------- | ----------- | ---------- |
+| ArangoDB   | [arangodb](https://github.com/arangodb/arangodb)          | maintaining | C++, JavaScript | Graph, Document | http     | text (AQL)  | apache-2.0 |
+| OrientDB   | [orientdb](https://github.com/orientechnologies/orientdb) | maintaining | Java            | Graph, Document | http     | text (SQL)  | apache-2.0 |
+| EuclidesDB | [euclidesdb](https://github.com/perone/euclidesdb)        | stopped     | C++             | Graph, ML Model | gRPC     | text, image | apache-2.0 |
