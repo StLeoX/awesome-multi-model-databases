@@ -16,7 +16,7 @@ Resource for multi-model databases. Welcome ISSUEs & PRs.
 
 - [OrientDB: A NoSQL, Open Source MMDMS](https://ceur-ws.org/Vol-3163/BICOD21_paper_3.pdf) An open-source MMDBS.
 
-- [The BigDAWG Polystore System](https://sci.bban.top/pdf/10.1145/2814710.2814713.pdf) An instance.
+- [The BigDAWG Polystore System](https://sci.bban.top/pdf/10.1145/2814710.2814713.pdf) An instance of the `polystore system`.
 
     
 
@@ -36,13 +36,14 @@ Resource for multi-model databases. Welcome ISSUEs & PRs.
 
 ### Open-Source
 
-| name       | github                                                    | status      | lang            | support                       | protocol | query             | license    |
-| ---------- | --------------------------------------------------------- | ----------- | --------------- | ----------------------------- | -------- | ----------------- | ---------- |
-| ArangoDB   | [arangodb](https://github.com/arangodb/arangodb)          | maintaining | C++, JavaScript | relation, graph, document     | http     | AQL               | Apache-2.0 |
-| OrientDB   | [orientdb](https://github.com/orientechnologies/orientdb) | maintaining | Java            | relation, graph, document     | http     | SQL               | Apache-2.0 |
-| EuclidesDB | [euclidesdb](https://github.com/perone/euclidesdb)        | stopped     | C++             | relation, model               | gRPC     | gRPC              | Apache-2.0 |
-| ArcadeDB   | [arcadedb](https://github.com/ArcadeData/arcadedb)        | maintaining | Java            | relation, graph, document, KV | http     | SQL, Cypher, JSON | Apache-2.0 |
-| OrixDB     | [orixdb](https://github.com/orixdb/orixdb)                | booting     | Rust            | unknown                       | unknown  | GraphQL           | MIT        |
+| name       | github                                                    | status      | lang            | support                       | protocol | query               | license    |
+| ---------- | --------------------------------------------------------- | ----------- | --------------- | ----------------------------- | -------- | ------------------- | ---------- |
+| ArangoDB   | [arangodb](https://github.com/arangodb/arangodb)          | maintaining | C++, JavaScript | relation, graph, document     | http     | AQL                 | Apache-2.0 |
+| OrientDB   | [orientdb](https://github.com/orientechnologies/orientdb) | maintaining | Java            | relation, graph, document     | http     | SQL99               | Apache-2.0 |
+| EuclidesDB | [euclidesdb](https://github.com/perone/euclidesdb)        | stopped     | C++             | relation, model               | gRPC     | gRPC                | Apache-2.0 |
+| ArcadeDB   | [arcadedb](https://github.com/ArcadeData/arcadedb)        | maintaining | Java            | relation, graph, document, KV | http     | SQL99, Cypher, JSON | Apache-2.0 |
+| OrixDB     | [orixdb](https://github.com/orixdb/orixdb)                | booting     | Rust            | unknown                       | unknown  | GraphQL             | MIT        |
+| EdgeDB     | [edgedb](https://github.com/edgedb/edgedb)                | booting     | Python          | relation, graph, object       | http     | EdgeQL              | Apache-2.0 |
 
 ### Commercial
 
